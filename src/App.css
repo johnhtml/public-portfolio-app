@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.footer{
+  background-color: #ffffff;
+  margin: 0px auto;
+  padding: 20px 0px 20px 0px;
+}
+
+.navbar-light {
+  background-color: #ffffff;
+  position: absolute;
+}
+
+.jumbotron{
+  background: 
+    linear-gradient(
+      #e66465, #9198e5
+  );
+  margin-top: 60px;
+}
+
+.carousel
+{
+    background: black;
+}
+
+.carousel-item
+{
+    height: 300px;
+}
+
+.carousel-item img 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+.carousel-control-prev{
+  background: #9198e5;
+}
+
+.carousel-control-next{
+  background: #9198e5;
+}
+
+.content {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  min-height: 250px;
+}
+
+.content > div {
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  transform-origin: 50% 50% 0px;
+  border-radius: 5px;
+  color: white;
+  line-height: 40px;
+  padding-left: 0px;
+  font-size: 14.5px;
+  background: lightblue;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  touch-action: none;
+}
+
+.content > div:nth-child(1) {
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+}
+.content > div:nth-child(2) {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+.content > div:nth-child(3) {
+  background: linear-gradient(135deg, #5ee7df 0%, #b490ca 100%);
+}
+.content > div:nth-child(4) {
+  background: linear-gradient(135deg, #c3cfe2 0%, #c3cfe2 100%);
+}
