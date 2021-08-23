@@ -18,7 +18,7 @@ function Footer(props) {
                 <div className="col-7 col-sm-5 align-self-center">
                     <div className="text-center">
                         <a className="btn btn-social-icon btn-github" href="https://github.com/johnhtml"><i className="fa fa-github"></i></a>
-                        <a className="btn btn-social-icon" href="mailto:jogerenag@unal.edu.co"><i className="fa fa-envelope-o"></i></a>
+                        <a className="btn btn-social-icon" href="mailto:"><i className="fa fa-envelope-o"></i></a>
                     </div>
                 </div>
             </div>
